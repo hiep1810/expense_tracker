@@ -36,7 +36,9 @@ class _ExpensesState extends State<Expenses> {
       body: Column(
         children: [
           const Text('Expense Tracker'),
-          ExpenseList(expenses: _registeredExpenses),
+          Expanded(
+            child: ExpenseList(expenses: _registeredExpenses),
+          ),
         ],
       ),
     );
