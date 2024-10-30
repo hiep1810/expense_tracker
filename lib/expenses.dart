@@ -35,6 +35,7 @@ class _ExpensesState extends State<Expenses> {
     return Scaffold(
       body: Column(
         children: [
+          const Text('Expense Tracker'),
           ExpenseList(expenses: _registeredExpenses),
         ],
       ),
