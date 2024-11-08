@@ -8,7 +8,7 @@ A Flutter-based expense tracking application that helps users efficiently monito
 - 📊 Interactive chart showing expense distribution
 - 📱 Responsive design for different screen sizes
 - 🌓 Built-in dark mode support
-- 🗑️ Swipe-to-delete with undo functionality
+- 🗑️ Swipe-to-delete functionality with undo option for accidental deletions
 - 💰 Support for three expense categories:
   - Food
   - Travel
